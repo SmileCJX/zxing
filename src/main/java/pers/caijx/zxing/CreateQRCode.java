@@ -24,7 +24,7 @@ public class CreateQRCode {
         int width = 300;
         int height = 300;
         String format = "png";
-        String content = "爱打蟑螂的小强";
+        String content = "http://www.baidu.com";
 
         //定义二维码的参数
         Map<EncodeHintType,Object> hints = new HashMap<>();
